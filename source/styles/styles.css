@@ -1,0 +1,138 @@
+body {
+  background: linear-gradient(90deg, #ebd476 14%, #61248a 90%);
+}
+.nav-link {
+  color: rgb(222, 238, 230);
+}
+.nav-link:hover {
+  background-color: rgb(89, 90, 91);
+  color: aliceblue;
+}
+.navbar-nav .nav-link.active {
+  color: aquamarine;
+}
+
+.navbar-nav .nav-link.active:hover {
+  background-color: rgb(89, 90, 91);
+  color: aliceblue;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar-toggler {
+  background-color: rgb(167, 170, 173);
+}
+
+.navbar-toggler:hover {
+  background-color: rgb(158, 170, 183);
+  color: aliceblue;
+}
+
+.card { 
+    max-width: 100%;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+    background-color: #bad8f8;
+}
+
+.sidebar {
+    color: aliceblue;
+    background: linear-gradient(270deg, #8ac2ff 14%, #61248a 90%);
+    text-decoration-style: solid;
+}
+
+body {
+    font-family: 'moncerat', serif;
+    font-size: 24px;
+  }
+p {
+    color: aliceblue;
+}
+  .card-title>a {
+    text-decoration: none;
+  }
+a {
+color: rgb(60, 35, 35);
+text-decoration: solid;
+font-size: 30px;
+font-weight: bold;
+
+}
+a:hover {
+    color: rgb(42, 163, 60);
+    
+}
+
+.slide-text {
+    color: aliceblue;
+    margin: auto auto;
+}
+.btn-outline-primary {
+    background: linear-gradient(90deg, #ebd476 14%, #61248a 90%);
+    color: black;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn-outline-primary:hover {
+    color: aliceblue;
+}
+
+footer{
+
+    background: linear-gradient(270deg, #8ac2ff 14%, #61248a 90%);
+}
+.media-links {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.footer-text { 
+    color: aliceblue;
+    margin: auto auto;
+    
+}
